@@ -34,7 +34,7 @@
 			<br>
 
 		<?php
-		$connection_string = "host=RDS_Connection_String port=RDS_Port_Number dbname=RDS_DB_Name user=RDS_Username password=RDS_password";
+		$connection_string = "host=database-1.cjqkmaa8mh9r.ca-central-1.rds.amazonaws.com port=5432 dbname=postgres user=postgres password=abc123ABC123&";
 		$connection = pg_connect($connection_string) or die("Could not connect to the database: " . pg_last_error());
 
 
