@@ -15,7 +15,7 @@
 	<br>
 	<hr>
 	<div class="topnav">
-		<a href="index.html">Home</a>
+		<a href="sheehan.php">Home</a>
 		<a href="#aboutUs">About Us</a>
 		<a href="#contactUs">Contact Us</a>
 	</div>
