@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
-
+ ""
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,7 +43,7 @@ ini_set('display_errors', 1);
 		$connection = pg_connect($connection_string) or die("Could not connect to the database: " . pg_last_error());
 
 
-		$query = "SELECT * FROM final";
+		$query = "SELECT * FROM employee";
 		$result = pg_query($connection, $query) or die("Error reading data: " . pg_last_error());
 
 		while ($row = pg_fetch_assoc($result)) {
