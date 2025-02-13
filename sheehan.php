@@ -1,3 +1,8 @@
+<?php
+ini_set('display_errors', 1); // Enable error display
+error_reporting(E_ALL); // Report all types of errors
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
